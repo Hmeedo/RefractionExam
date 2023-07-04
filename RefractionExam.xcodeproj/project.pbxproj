@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B81D016A2A52EB85001CAD1B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D01692A52EB85001CAD1B /* MenuView.swift */; };
+		B81D016C2A534F4B001CAD1B /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D016B2A534F4B001CAD1B /* CircularProgressView.swift */; };
+		B81D016E2A5352AA001CAD1B /* DeviceVerticalHoldAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D016D2A5352AA001CAD1B /* DeviceVerticalHoldAssistantView.swift */; };
+		B81D01712A53531B001CAD1B /* DeviceVerticalHoldAssistantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D01702A53531B001CAD1B /* DeviceVerticalHoldAssistantViewModel.swift */; };
+		B81D01732A537989001CAD1B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D01722A537989001CAD1B /* CameraView.swift */; };
+		B81D01752A542C59001CAD1B /* FaceDetectionAssistantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D01742A542C59001CAD1B /* FaceDetectionAssistantViewModel.swift */; };
+		B81D01772A542CA6001CAD1B /* FaceDetectionAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D01762A542CA6001CAD1B /* FaceDetectionAssistantView.swift */; };
+		B8A393F02A51EE9200D3EC2D /* iphone.scn in Resources */ = {isa = PBXBuildFile; fileRef = B8A393EF2A51EE9200D3EC2D /* iphone.scn */; };
+		B8A758C82A517E390042C264 /* RefractionExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A758C72A517E390042C264 /* RefractionExamApp.swift */; };
+		B8A758CA2A517E390042C264 /* RefractionExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A758C92A517E390042C264 /* RefractionExamView.swift */; };
+		B8A758CC2A517E390042C264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A758CB2A517E390042C264 /* Assets.xcassets */; };
+		B8A758CF2A517E390042C264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A758CE2A517E390042C264 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B81D01692A52EB85001CAD1B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B81D016B2A534F4B001CAD1B /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		B81D016D2A5352AA001CAD1B /* DeviceVerticalHoldAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVerticalHoldAssistantView.swift; sourceTree = "<group>"; };
+		B81D01702A53531B001CAD1B /* DeviceVerticalHoldAssistantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVerticalHoldAssistantViewModel.swift; sourceTree = "<group>"; };
+		B81D01722A537989001CAD1B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B81D01742A542C59001CAD1B /* FaceDetectionAssistantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionAssistantViewModel.swift; sourceTree = "<group>"; };
+		B81D01762A542CA6001CAD1B /* FaceDetectionAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionAssistantView.swift; sourceTree = "<group>"; };
+		B8A393EF2A51EE9200D3EC2D /* iphone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = iphone.scn; path = ../../../Desktop/iphone.scn; sourceTree = "<group>"; };
+		B8A758C42A517E390042C264 /* RefractionExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefractionExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A758C72A517E390042C264 /* RefractionExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefractionExamApp.swift; sourceTree = "<group>"; };
+		B8A758C92A517E390042C264 /* RefractionExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefractionExamView.swift; sourceTree = "<group>"; };
+		B8A758CB2A517E390042C264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8A758CE2A517E390042C264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A758C12A517E390042C264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B81D01672A52EAA7001CAD1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B81D01692A52EB85001CAD1B /* MenuView.swift */,
+				B8A758C92A517E390042C264 /* RefractionExamView.swift */,
+				B81D016B2A534F4B001CAD1B /* CircularProgressView.swift */,
+				B81D016D2A5352AA001CAD1B /* DeviceVerticalHoldAssistantView.swift */,
+				B81D01762A542CA6001CAD1B /* FaceDetectionAssistantView.swift */,
+				B81D01722A537989001CAD1B /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B81D016F2A53530E001CAD1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B81D01702A53531B001CAD1B /* DeviceVerticalHoldAssistantViewModel.swift */,
+				B81D01742A542C59001CAD1B /* FaceDetectionAssistantViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B8A758BB2A517E380042C264 = {
+			isa = PBXGroup;
+			children = (
+				B8A758C62A517E390042C264 /* RefractionExam */,
+				B8A758C52A517E390042C264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A758C52A517E390042C264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A758C42A517E390042C264 /* RefractionExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A758C62A517E390042C264 /* RefractionExam */ = {
+			isa = PBXGroup;
+			children = (
+				B81D016F2A53530E001CAD1B /* ViewModel */,
+				B81D01672A52EAA7001CAD1B /* Views */,
+				B8A758C72A517E390042C264 /* RefractionExamApp.swift */,
+				B8A393EF2A51EE9200D3EC2D /* iphone.scn */,
+				B8A758CB2A517E390042C264 /* Assets.xcassets */,
+				B8A758CD2A517E390042C264 /* Preview Content */,
+			);
+			path = RefractionExam;
+			sourceTree = "<group>";
+		};
+		B8A758CD2A517E390042C264 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8A758CE2A517E390042C264 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8A758C32A517E390042C264 /* RefractionExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A758D22A517E390042C264 /* Build configuration list for PBXNativeTarget "RefractionExam" */;
+			buildPhases = (
+				B8A758C02A517E390042C264 /* Sources */,
+				B8A758C12A517E390042C264 /* Frameworks */,
+				B8A758C22A517E390042C264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefractionExam;
+			productName = RefractionExam;
+			productReference = B8A758C42A517E390042C264 /* RefractionExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A758BC2A517E380042C264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B8A758C32A517E390042C264 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B8A758BF2A517E380042C264 /* Build configuration list for PBXProject "RefractionExam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8A758BB2A517E380042C264;
+			productRefGroup = B8A758C52A517E390042C264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A758C32A517E390042C264 /* RefractionExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A758C22A517E390042C264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A758CF2A517E390042C264 /* Preview Assets.xcassets in Resources */,
+				B8A393F02A51EE9200D3EC2D /* iphone.scn in Resources */,
+				B8A758CC2A517E390042C264 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A758C02A517E390042C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A758CA2A517E390042C264 /* RefractionExamView.swift in Sources */,
+				B81D01732A537989001CAD1B /* CameraView.swift in Sources */,
+				B81D016A2A52EB85001CAD1B /* MenuView.swift in Sources */,
+				B81D01712A53531B001CAD1B /* DeviceVerticalHoldAssistantViewModel.swift in Sources */,
+				B81D01752A542C59001CAD1B /* FaceDetectionAssistantViewModel.swift in Sources */,
+				B81D016C2A534F4B001CAD1B /* CircularProgressView.swift in Sources */,
+				B81D01772A542CA6001CAD1B /* FaceDetectionAssistantView.swift in Sources */,
+				B81D016E2A5352AA001CAD1B /* DeviceVerticalHoldAssistantView.swift in Sources */,
+				B8A758C82A517E390042C264 /* RefractionExamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8A758D02A517E390042C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8A758D12A517E390042C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8A758D32A517E390042C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RefractionExam/Preview Content\"";
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app uses camera to perform Refraction Exam";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "this app uses camera to perform Refraction Exam";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmeedo.RefractionExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8A758D42A517E390042C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RefractionExam/Preview Content\"";
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app uses camera to perform Refraction Exam";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "this app uses camera to perform Refraction Exam";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmeedo.RefractionExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A758BF2A517E380042C264 /* Build configuration list for PBXProject "RefractionExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A758D02A517E390042C264 /* Debug */,
+				B8A758D12A517E390042C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A758D22A517E390042C264 /* Build configuration list for PBXNativeTarget "RefractionExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A758D32A517E390042C264 /* Debug */,
+				B8A758D42A517E390042C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A758BC2A517E380042C264 /* Project object */;
+}
